@@ -6,7 +6,3 @@ before_install:
 install:
 - npm install datahub-cli
 script: data push ./ --published
-env:
-  global:
-    profile: { "id":"examples", "username":"examples"}
-  TRAVIS_SECURE_ENV_VARS: true
