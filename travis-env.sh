@@ -1,1 +1,1 @@
-export profile={ "id":"examples", "username":"examples"}
+export profile="{ "id":"examples", "username":"examples"}"
