@@ -6,7 +6,6 @@ install:
 script: data push ./ --published
 env:
   global:
-    profile:
-      id: examples
-      username: examples
+    profile.id: examples
+    profile.username: examples
   TRAVIS_SECURE_ENV_VARS: true
