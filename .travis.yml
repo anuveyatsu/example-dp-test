@@ -6,7 +6,3 @@ before_install:
 install:
 - npm install datahub-cli
 script: data push ./ --published
-env:
-    global:
-        token: 
-          secure: "BA+IEDpTTtIhBmIpX3sBUY5n0gpQ9D/DQ1Trr6GF6mMM2JB/uvS007bAwNFHr1PALqz6YH2xLyAsSkq6YzmpDwDB25Qa37Kglsmeo2IDDs+uPuzP2bRcPBHuAIoENqCvnYJOGVYHKbtLCvTti+vVv1OWinY5sRLlbAePifxt3PpXOfLRkFxFwgbDoZslaGTp1b6WO7eshyi57bQDfuCDHH056nGtbhF7UkW733EsIkb2AiV/xaiTLdAfMwbEcjPwOSrPGLU4p8vlkza4myG+W/x3aZfsvQ42nZtorDzrPU5vM16wHAkje2MYoxfkcPoBrUE3Paqy38loc1boni9+65qxe81I3WsqTSh4VF4+/MHJzKA1/1N2aEx6Z6aWKT/HKy98FoYZcHEwKcIeJXEZE9ydB6Mdl5pvWPmNTmDLONtve3wPpG+wy87M2MsE2rlMktT26qElnCSYFoBqUWXSZ69Oit4GGeKJW6OBUp59LrplH6FpU476VEIX2ifL6zi+yPTHPDcGJ93CkF+lVmpPtwM/1z63hIV0rRJvVV+L7rlDZr/RE4LGjw3n+R1UWN/aygcIn+JD9c4FpnxHzbFBqAiK+mC+XBnYVffW6WcKSFCNIdAWu1/ZMesOTbaNqTwmyGW7NLfGNpg7KV++Gr+SUOvTAVZkH2MC//B5Zdr1FeU="
