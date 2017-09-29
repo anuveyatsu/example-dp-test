@@ -8,3 +8,4 @@ env:
   global:
     id: b6c7c7180404aeb2863e592a9a72deb9
     username: Mikanebu
+  TRAVIS_SECURE_ENV_VARS: true
