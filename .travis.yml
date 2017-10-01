@@ -5,8 +5,8 @@ install:
 - npm install datahub-cli
 - sudo apt install xsel
 script: data push ./ --published
-env: 
+env:
   global:
-    id: b6c7c7180404aeb2863e592a9a72deb9
-    username: Mikanebu
+    id: 90998f7f90e086bd5fc7c9075dfda43b
+    username: anuveyatsu
   TRAVIS_SECURE_ENV_VARS: true
