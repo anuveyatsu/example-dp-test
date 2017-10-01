@@ -3,8 +3,7 @@ node_js:
 - '8'
 install:
 - npm install -g git+https://github.com/anuveyatsu/datahub-cli.git
-- sudo apt install xsel
-script: data push ./ --published --debug
+script: data push ./ --published
 env:
   global:
     id: 90998f7f90e086bd5fc7c9075dfda43b
