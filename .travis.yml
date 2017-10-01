@@ -4,7 +4,7 @@ node_js:
 install:
 - npm install datahub-cli -g
 - sudo apt install xsel
-script: data push ./ --published
+script: data push ./ --published --debug
 env:
   global:
     id: 90998f7f90e086bd5fc7c9075dfda43b
